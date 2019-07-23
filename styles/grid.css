@@ -51,7 +51,7 @@ display: grid;
 grid-area: hero;
 grid-column: 1/2;
 grid-row: 2/3;
-grid-auto-rows: minmax(200px, auto);
+grid-auto-rows: minmax(100px, auto);
 
 body, html {
   height: 100%;
@@ -98,7 +98,7 @@ body, html {
   grid-area: adverti;
   grid-column: 2/3;
   grid-row: 2/3;
-  
+  grid-auto-rows: minmax(100px, auto);
 }
 .advert-img{
   width: 100%;
@@ -111,7 +111,7 @@ body, html {
   grid-column: 1/2;
   grid-row: 3/4;
   grid-template-columns: 1fr 2fr;
-  grid-auto-rows: minmax(400px, auto);
+  grid-auto-rows: minmax(300px, auto);
 }
 .contain p{
   font-family: arial;
